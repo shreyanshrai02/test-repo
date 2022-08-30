@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+html, body {
+  margin: 0;
+  color: white;
+}
+
+#formContainer {
+  display: flex;
+  width: 100vw;
+  background-color: black;
+}
+#formContainer #dimg {
+  height: 100vh;
+}
+#formContainer #dimg img {
+  width: auto;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#formContainer #formDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#formContainer #formDiv form {
+  font-family: "Poppins", sans-serif;
+  z-index: 10;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 0 0 1px #eee;
+  border-radius: 1rem;
+  box-sizing: border-box;
+  padding: 2rem;
+  padding-top: 0;
+  row-gap: 0.5rem;
+}
+#formContainer #formDiv form #dgender {
+  display: flex;
+  flex-wrap: wrap;
+}
+#formContainer #formDiv form .field {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#formContainer #formDiv form .field input {
+  background-color: rgb(28, 28, 28);
+  border: 1px solid white;
+  border-radius: 0.2rem;
+  padding: 0.2rem;
+  font-size: 1rem;
+}
+#formContainer #formDiv form .field input::-moz-placeholder {
+  color: lightgray;
+}
+#formContainer #formDiv form .field input:-ms-input-placeholder {
+  color: lightgray;
+}
+#formContainer #formDiv form .field input::placeholder {
+  color: lightgray;
+}
+#formContainer #formDiv form #regBnt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  box-sizing: border-box;
+}
+#formContainer #formDiv form #regBnt button {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.4rem 0.7rem;
+  border-radius: 0.4rem;
+  background-color: #d9d9d9;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.05rem;
+}/*# sourceMappingURL=style.css.map */
